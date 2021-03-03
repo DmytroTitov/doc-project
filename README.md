@@ -14,5 +14,5 @@
 ### Working page:
 [Look to the landing](https://dmytrotitov.github.io/doc-project/)  
 
-login: a@a.a
+login: a@a.a  
 pass: 123
