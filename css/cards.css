@@ -1,0 +1,134 @@
+/* Empty text */
+.cards__empty-text {
+    padding-top: 100px;
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
+
+/*----------------------------------------------CARDS---------------------------------------------*/
+
+.cards-wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.cards-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    width: calc(100% / 3);
+}
+
+.show-btn {
+    width: 100%;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.delete-btn:before,
+.delete-btn:after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 7px;
+    width: 26px;
+    height: 4px;
+    background: #fff;
+}
+
+.delete-btn:before {
+    transform: rotate(45deg);
+}
+
+.delete-btn:after {
+    transform: rotate(-45deg);
+}
+
+.cards-item {
+    display: inline-block;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #dbe1e5;
+    max-width: 300px;
+}
+
+.cards-item > p, .show > p {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #3f4255;
+    margin-bottom: 15px;
+}
+
+.cards-item > p {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.cards-item__name {
+    margin-top: 30px;
+}
+
+.show {
+    word-wrap: break-word;
+}
+
+.show > p {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.show-btn {
+    margin-bottom: 10px;
+}
+
+.cards-item__btn {
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #0070fa;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+}
+
+.cards-item__btn:hover {
+    border: 1px solid #0070fa;
+    background-color: #fff;
+    color: #0070fa;
+}
+
+.cards-item__dropdown {
+    position: relative;
+}
+
+.cards-item__dropdown:hover .cards-item__dropdown-wrapper {
+    display: block;
+}
+
+.cards-item__dropdown-wrapper  {
+    display: none;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+

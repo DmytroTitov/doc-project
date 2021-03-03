@@ -1,0 +1,54 @@
+.visit-form {
+    display: flex;
+    flex-direction: column;
+}
+.visit-form > select {
+    margin-bottom: 30px;
+}
+
+.visit-form > button, .undefined > button {
+    width: 300px;
+    margin: 25px auto 0;
+}
+
+.doc-fields-wrap {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.doc-fields-wrap > *:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.doc-fields-wrap input,
+.doc-fields-wrap textarea {
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.doc-fields-wrap input {
+    padding: 10px 5px;
+}
+
+.doc-fields-wrap textarea {
+    padding: 4px 25px;
+}
+
+.undefined {
+    display: flex;
+    flex-direction: column;
+}
+
+.undefined > .doctor {
+    margin: 0 auto;
+    padding: 15px 0;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}

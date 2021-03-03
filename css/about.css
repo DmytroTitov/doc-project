@@ -1,0 +1,50 @@
+
+.about-us-section {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+
+.about-us-container {
+    margin-bottom: 70px;
+}
+
+.header {
+    color: #242429;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.about-us__text {
+    color: #7f7f7f;
+    margin-bottom: 40px;
+}
+
+.about-us__link {
+    padding: 10px 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    background-color: #0070fa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.about-us-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.img-cont p {
+    margin-top: 20px;
+}
